@@ -1,5 +1,5 @@
 import { FBDocumentSnapshot, FirebaseModelConverter } from "yuni-chanz-react-firebase";
-import IClickerProfile from "./IClickerProfile";
+import IClickerProfile from "../features/clicker/IClickerProfile";
 
 export default class FBClickerProfileConverter extends FirebaseModelConverter<IClickerProfile> {
     

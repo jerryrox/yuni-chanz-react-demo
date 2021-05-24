@@ -1,6 +1,6 @@
 import IUpdateClickerProfileApiParam from "./IUpdateClickerProfileApiParam";
 import FirestorePaths from "../../utils/FirestorePaths";
-import FBClickerProfileConverter from "../../features/clicker/FBClickerProfileConverter";
+import FBClickerProfileConverter from "../../converters/FBClickerProfileConverter";
 import { FirebaseApi } from "yuni-chanz-react-firebase";
 
 export default class FBUpdateClickerProfileApi extends FirebaseApi {

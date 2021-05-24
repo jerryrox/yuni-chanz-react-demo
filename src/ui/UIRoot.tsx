@@ -13,9 +13,11 @@ import FirebaseApiProvider from "../api/FirebaseApiProvider";
 import ClickerPageVM from "../viewmodels/pages/ClickerPageVM";
 import ClickerPage from "./pages/ClickerPage";
 import { DependencyContainer, Navigation, DependencyContext, ExplicitViewWrapper, NavigationService } from "yuni-chanz-react";
+import AwsApiProvider from "../api/AwsApiProvider";
 
 const navigation = new Navigation();
-const apiProvider: ApiProvider = new FirebaseApiProvider();
+// const apiProvider: ApiProvider = new FirebaseApiProvider();
+const apiProvider: ApiProvider = new AwsApiProvider();
 
 const initializeOverlayVM = new InitializeOverlayVM({
 });

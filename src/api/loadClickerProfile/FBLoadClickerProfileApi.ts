@@ -1,6 +1,6 @@
 import ILoadClickerProfileApiParam from "./ILoadClickerProfileApiParam";
 import FirestorePaths from "../../utils/FirestorePaths";
-import FBClickerProfileConverter from "../../features/clicker/FBClickerProfileConverter";
+import FBClickerProfileConverter from "../../converters/FBClickerProfileConverter";
 import IClickerProfile from "../../features/clicker/IClickerProfile";
 import { FirebaseApi } from "yuni-chanz-react-firebase";
 

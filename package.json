@@ -2,6 +2,10 @@
   "name": "yuni-chanz-react-demo",
   "version": "0.0.0",
   "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.16.0",
+    "@aws-sdk/client-dynamodb": "^3.16.0",
+    "@aws-sdk/client-dynamodb-streams": "^3.16.0",
+    "@aws-sdk/client-s3": "^3.16.0",
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -22,6 +26,7 @@
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
     "yuni-chanz-react": "^0.0.4",
+    "yuni-chanz-react-aws": "^0.0.4",
     "yuni-chanz-react-firebase": "^0.0.1"
   },
   "scripts": {
