@@ -14,6 +14,7 @@ export default class InitializeOverlayVM extends ExplicitViewModel {
     }
 
     async initialize() {
+        // We just want to see the initialization overlay for at least 1 second.
         await PromiseUtils.wait(1000);
     }
 

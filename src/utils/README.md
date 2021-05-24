@@ -1,0 +1,2 @@
+# Demo usage of "utility classes"
+Here, you can add other utility classes to aid your logics. In this demo, I've added classes that help retrieve paths for navigation, Firestore, and name for DynamoDB tables.
