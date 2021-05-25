@@ -16,7 +16,7 @@ export default class FBClickerProfileConverter extends FirebaseModelConverter<IC
     toPlain(model: IClickerProfile): Record<string, any> {
         return {
             createdAt: this.encodeDate(model.createdAt),
-            points: model.points,
+            points: this.encodeNumber(model.points),
         };
     }
 }
