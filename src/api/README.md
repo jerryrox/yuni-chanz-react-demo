@@ -31,7 +31,14 @@ private async loadProfile() {
     const api = this.param.apiProvider.loadClickerProfile({
         id: "defaultUser",
     });
-    this.profile.value = await api.request();
+    const response = await api.request();
+    if(response.isSuccess) {
+        this.profile.value = response.value!;
+    }
+    else {
+        console.log(response.error);
+        alert(response.message);
+    }
 }
 ```
 3. Depending on the specific type of `ApiProvider` instantiated, it'll instantiate an `IApi` object with either Firebase or AWS implementation.

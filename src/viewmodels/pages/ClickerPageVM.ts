@@ -55,7 +55,11 @@ export default class ClickerPageVM extends RoutedViewModel {
         const api = this.param.apiProvider.updateClickerProfile({
             profile,
         });
-        await api.request();
+        const response = await api.request();
+        if(!response.isSuccess) {
+            console.log(response.error);
+            alert(response.message);
+        }
 
         this.lastSaveTime = new Date().getTime();
         this.isSaving.value = false;
@@ -101,6 +105,13 @@ export default class ClickerPageVM extends RoutedViewModel {
         const api = this.param.apiProvider.loadClickerProfile({
             id: "defaultUser",
         });
-        this.profile.value = await api.request();
+        const response = await api.request();
+        if(response.isSuccess) {
+            this.profile.value = response.value!;
+        }
+        else {
+            console.log(response.error);
+            alert(response.message);
+        }
     }
 }

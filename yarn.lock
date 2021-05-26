@@ -13343,17 +13343,17 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-yuni-chanz-react-aws@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/yuni-chanz-react-aws/-/yuni-chanz-react-aws-0.0.4.tgz#cabbdc22617519bef9c488219f67a69b9be0fb70"
-  integrity sha512-zvFUDsnicKCmlIgWJs+y4+fIYs6xATCuMsCsq8o5m+3v1AK6HtVSnN6A7Rc1jdcg/wdV2d0+1o1CNxh2ZVDImg==
+yuni-chanz-react-aws@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/yuni-chanz-react-aws/-/yuni-chanz-react-aws-0.1.0.tgz#48326c8974ecc09ee82827f3a08f6b4031fee215"
+  integrity sha512-U7SAeHwh487hy+vix6rrwkIU31SLN+TGkaBJ4bgDV5QaVJ2W27+FnSJpWGsOLDUZhgNFhgUzD7uUkhF6vpEzXw==
 
-yuni-chanz-react-firebase@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/yuni-chanz-react-firebase/-/yuni-chanz-react-firebase-0.0.1.tgz#86b6c6580be4b77b77ade3411a6e3696611526e3"
-  integrity sha512-x6sApaL/EdJ/b/8nZNMds9RXJ5y4xs2esXC4V4TACIdX22je05dYTiJRowRbnR0MzTX87T+wMrs+FvGbTDp8tg==
+yuni-chanz-react-firebase@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/yuni-chanz-react-firebase/-/yuni-chanz-react-firebase-0.1.0.tgz#b0fa0dd812bc0d9d31e755aeb542669ef39e7274"
+  integrity sha512-QML3SgiLvwgmspP8XBtBxTYg/km/OhLh8UQJJbkg31S1GrCq3TuVaaUItJ5GX4Sp8gBMg1gJrheO6Rq+gVcS7w==
 
-yuni-chanz-react@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/yuni-chanz-react/-/yuni-chanz-react-0.0.5.tgz#c10eae8ca52af5f769742ceb293c7abfa1425727"
-  integrity sha512-uaLRxoNdm89iTcvY8pkEo+ZXE4QSLlFEmGbP/jlp8Qck2UNcMrU+l+LzJuaUj92Avu3RO3zKzsuymoYLpJ6DwA==
+yuni-chanz-react@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/yuni-chanz-react/-/yuni-chanz-react-0.1.0.tgz#54589ae3a216e4e30cb86df64e14fb4cfebd6d67"
+  integrity sha512-blTdtolzht8SXlbXemfQJsWdefXipyVZgnUm56dolqXCsUD13o1lVcWkm80x4m5To3FQYD7CjoDExE1gkL2u+g==
